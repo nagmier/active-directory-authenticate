@@ -1,13 +1,15 @@
-# Active Directory Authentication for [CakePHP 3](https://cakephp.org/)
+# Active Directory Authentication for [CakePHP 3](https://cakephp.org/) And PHP 7
 
 Extends CakePHP's built-in authentication types to offer form authentication for Active Directory users over LDAP using [Adldap2](https://github.com/Adldap2/Adldap2/).
 
 ## Installing With Composer
 
+TESTING NOT READY FOR RELEASE
+
 Install Active Directory Authentication by adding the following to your `composer.json` file:
 
     "require": {
-        "unholyknight/active-directory-authenticate": "master"
+        "nagmier/active-directory-authenticate": "master"
     }
 
 Run composer's update command to download the plugin.
